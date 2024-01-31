@@ -2,16 +2,19 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
 }
 #col2{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
 }
 #col3{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
 }
 .color{
     color:#FFAB00
