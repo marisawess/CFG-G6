@@ -53,6 +53,17 @@ li::marker {
     border-color: #FFAB00;
 }
 
+/* button animation */
+a.btn:hover{
+    background-color: #f68602;
+    border: 1px solid #f68602;
+}
+/* card animation */
+.card:hover{
+    scale: 1.05;
+    transition: scale 200ms;
+}
+
 /* comment box */
 .AddComment {
     position: relative;
