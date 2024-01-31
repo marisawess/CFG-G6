@@ -1,0 +1,62 @@
+#col1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#col2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#col3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.color{
+    color:#FFAB00
+}
+body{
+    background-color: #464646;
+    color: whitesmoke;
+    font-family: 'Quicksand', sans-serif;
+    margin: 10px 20px;
+}
+h1{
+    text-align: center;
+}
+h4{
+    text-align: center;
+}
+.recipeimg{
+    margin: 5px;
+}
+/* ul ol color */
+li::marker {
+    color:#FFAB00
+}
+.responsivePhoto {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+/* button animation */
+a.btn:hover{
+    background-color: #fff;
+    border: 1px solid black;
+}
+/* card animation */
+.card:hover{
+    scale: 1.05;
+    transition: scale 200ms;
+}
+.btn{
+    background-color: #FFAB00;
+}
+
