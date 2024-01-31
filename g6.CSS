@@ -2,19 +2,16 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
 }
 #col2{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
 }
 #col3{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
 }
 .color{
     color:#FFAB00
@@ -23,7 +20,7 @@ body{
     background-color: #464646;
     color: whitesmoke;
     font-family: 'Quicksand', sans-serif;
-    margin: 10px 20px;
+    margin: 20px 30px;
 }
 h1{
     text-align: center;
@@ -34,9 +31,11 @@ h4{
 .recipeimg{
     margin: 5px;
 }
-/* ul ol color */
 li::marker {
     color:#FFAB00
+}
+.active{
+    color: #FFAB00 !important;
 }
 .responsivePhoto {
     width: 100%;
@@ -45,18 +44,112 @@ li::marker {
     display: block;
     margin-left: auto;
     margin-right: auto;
-}
-/* button animation */
-a.btn:hover{
-    background-color: #fff;
-    border: 1px solid black;
-}
-/* card animation */
-.card:hover{
-    scale: 1.05;
-    transition: scale 200ms;
-}
-.btn{
-    background-color: #FFAB00;
+    border: 1px solid rgb(245, 245, 245);
+    border-radius: 10px;
 }
 
+.btn-primary {
+    background-color: #FFAB00;
+    border-color: #FFAB00;
+}
+
+/* comment box */
+.AddComment {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    max-width: 600px;
+    padding: 10px 50px;
+    word-wrap: break-word;
+    background-color: whitesmoke;
+    border-radius: 10px;
+}
+
+.comment-box{
+    padding:px;
+}
+
+.comment-area textarea{
+    resize: none;
+    max-width: auto;
+    border: 1px solid #ad9f9f;
+}
+
+.form-control:focus {
+    color: #495057;
+    background-color: #fff;
+    border-color: whitesmoke;
+    outline: 0;
+    box-shadow: 0 0 0 1px #FFAB00;
+}
+
+.send {
+    color: whitesmoke;
+    background-color: #FFAB00;
+    border-color: #FFAB00;
+}
+
+.send:hover {
+    color: whitesmoke;
+    background-color: #f68602;
+    border-color: #f68602;
+}
+
+.cancel {
+    color: whitesmoke;
+    background-color: #333333;
+    border-color: #333333;
+}
+.cancel:hover {
+    color: whitesmoke;
+    background-color: #464646;
+    border-color: #464646;
+}
+
+.rating {
+    display: flex;
+    margin-top: -10px;
+    flex-direction: row-reverse;
+    margin-left: -4px;
+    float: left;
+}
+
+.rating>input {
+    display: none
+}
+
+.rating>label {
+    position: relative;
+    width: 20px;
+    font-size: 25px;
+    color: #FFAB00;
+    cursor: pointer;
+}
+
+.rating>label::before {
+    content: "\2605";
+    position: absolute;
+    opacity: 0
+}
+
+.rating>label:hover:before,
+.rating>label:hover~label:before {
+    opacity: 1 !important
+}
+
+.rating>input:checked~label:before {
+    opacity: 1
+}
+
+.rating:hover>input:checked~label:before {
+    opacity: 0.4
+}
+ 
+/*footer*/
+
+footer {
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+  }
