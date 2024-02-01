@@ -4,4 +4,4 @@ On the main page we are introducing ourselves.
 
 On the landing pages you can explore recipes for our favourite dishes.
 
-The authors of this project are Group 6: Lara, Marisa, Marta and Sarah (in alphabetical order:).
+The authors of this project are Group 6: Ifeyinwa, Lara, Marisa, Marta and Sarah (in alphabetical order:).
